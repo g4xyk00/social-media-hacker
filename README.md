@@ -32,4 +32,10 @@ for (var i = 0; i<img.length; i++){
 	}
 }
 
+var link=document.getElementsByTagName('a');
+for (var i = 0; i<link.length; i++){ 
+	if(link[i].href.includes("/p/")){
+		console.log(link[i].href);
+	}
+}
 ```
