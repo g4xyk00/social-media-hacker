@@ -4,6 +4,8 @@ This repository stores the scripts used to protect user privacy or provide addit
 ## Facebook
 ### Remove Facebook Click Identifier (fbclid)
 ```javascript
+//Updated: 30 Jan 2020
+
 var link=document.getElementsByTagName('a');
 for (var i = 0; i<link.length; i++){ 
 	if(link[i].href.includes("fbclid")){
