@@ -16,3 +16,20 @@ for (var i = 0; i<link.length; i++){
 	}
 }
 ```
+
+- - - - 
+
+## Instagram
+
+### Download Images
+```javascript
+//Updated: 30 Jan 2020
+
+var img=document.getElementsByTagName('img');
+for (var i = 0; i<img.length; i++){ 
+	if(img[i].sizes.includes("px")){
+		console.log(img[i].src);
+	}
+}
+
+```
