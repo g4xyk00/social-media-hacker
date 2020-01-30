@@ -1,4 +1,7 @@
-# Facebook
+# Social Media Hacker
+This repository stores the scripts used to protect user privacy or provide additional features on social media. 
+
+## Facebook
 ### Remove Facebook Click Identifier (fbclid)
 ```javascript
 var link=document.getElementsByTagName('a');
